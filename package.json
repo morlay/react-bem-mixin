@@ -1,0 +1,30 @@
+{
+  "name": "react-bem-mixin",
+  "version": "0.1.1",
+  "description": "just a simple bem mix to quick add bem classes in a component.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "browserify -r ./index.js:react-bem-mixin -o ./examples/bundle.js",
+    "test": "mocha test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morlay/react-bem-mixin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morlay/react-bem-mixin/issues"
+  },
+  "homepage": "https://github.com/morlay/react-bem-mixin",
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0",
+    "react": "^0.12.2"
+  }
+}
